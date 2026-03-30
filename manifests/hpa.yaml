@@ -4,7 +4,9 @@ metadata:
   name: evaluation-service-hpa
   namespace: togglemaster-evaluation
   labels:
-    app: evaluation-service
+    app.kubernetes.io/name: evaluation-service
+    app.kubernetes.io/component: evaluation
+    app.kubernetes.io/part-of: togglemaster
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
