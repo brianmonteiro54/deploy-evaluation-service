@@ -72,7 +72,7 @@ spec:
 
       containers:
         - name: evaluation-service
-          image: 637423306132.dkr.ecr.us-east-1.amazonaws.com/togglemaster/evaluation-service:d69019d02d42465f8c465a7107fdce0e25528842
+          image: 637423306132.dkr.ecr.us-east-1.amazonaws.com/togglemaster/evaluation-service:b8e19d2ed987823823f0b5c6a689ae23c268d57f
           imagePullPolicy: Always
           ports:
             - name: http
